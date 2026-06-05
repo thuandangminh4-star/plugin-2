@@ -1,0 +1,18 @@
+# ==========================================
+#    Spawner Shop Configuration
+# ==========================================
+
+# Spawner prices (in Dong currency)
+spawners:
+  zombie-price: 50000.0
+  skeleton-price: 55000.0
+  creeper-price: 60000.0
+
+# Spawner messages
+messages:
+  shop-title: "&8[&6Spawner Shop&8]"
+  spawner-bought: "&aYou have successfully bought {spawner} spawner!"
+  not-enough-money: "&cYou don't have enough money! Need: {price} 🪙 Dong, Current: {balance}"
+  balance-after-purchase: "&7Remaining balance: {balance}"
+  spawner-type: "&7Type: {type}"
+  place-to-create: "&7Place it down to create a {type} spawner"
