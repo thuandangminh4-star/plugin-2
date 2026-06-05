@@ -1,0 +1,95 @@
+# ==========================================
+#    Sus SMP Season 2 Configuration
+# ==========================================
+
+currency:
+  name: "Dong"
+  symbol: "🪙"
+  starting-balance: 500.0
+  max-balance: 10000000.0
+
+settings:
+  decimal-places: 2
+  transaction-fee: 0.0
+  trade-timeout: 60
+  trade-confirm-time: 30
+  top-limit: 10
+
+shop:
+  auto-update-config: true
+  backup-old-config: true
+
+homes:
+  total-homes: 5
+  free-homes: 2
+  unlock-prices: [0, 0, 25000, 50000, 100000]
+  teleport-delay-seconds: 3
+  cancel-teleport-on-move: true
+  teleport-title: "&6Home Teleport"
+  teleport-done-subtitle: "&aDa den noi"
+  teleport-actionbar: "&6Home &f{slot} &7in &e{seconds}s &8| &7Dung yen de dich chuyen"
+
+taixiu:
+  min-bet: 10.0
+  max-bet: 250000.0
+  broadcast-enabled: false
+  payout-multiplier: 1.95
+  round-seconds: 30
+  result-seconds: 8
+  history-per-player: 15
+  global-history-limit: 40
+  default-history-view: 8
+  default-soicau-limit: 12
+  preset-bets: [100, 500, 1000, 5000, 10000, 50000]
+
+afk:
+  default-interval-seconds: 60
+  max-interval-seconds: 600
+  notify-earnings: true
+  actionbar-text: "&6Dang AFK"
+  teleport-title: "&6AFK"
+  teleport-subtitle: "&7Ban dang o khu AFK"
+
+grave:
+  expire-seconds: 3600
+  teleport-fee: 500.0
+  open-fee: 1000.0
+  safe-search-radius: 24
+  join-reminder: true
+  public-open: true
+  admin-free: false
+  admin-access: false
+
+daily-login:
+  auto-claim-on-join: true
+  join-status-message: true
+  rewards: [500, 750, 1000, 1250, 1500, 2000, 3000]
+  claim-title: "&6Diem Danh Hang Ngay"
+  claim-subtitle: "&a+{reward} &7| Streak {streak}"
+
+sell-pricing:
+  fallback-min-price: 0.01
+  rarity-multipliers:
+    common: 1.0
+    uncommon: 1.2
+    rare: 1.55
+    epic: 2.25
+    legendary: 3.2
+
+scoreboard:
+  enabled: true
+  title: "&6&lSUS &e&lSMP &f&lSEASON 2"
+  update-ticks: 40
+
+messages:
+  prefix: "&8[&6&lSus &e&lSMP &fSeason 2&8] &r"
+  no-permission: "&cYou do not have permission."
+  player-not-found: "&cPlayer not found: &e{player}"
+  invalid-amount: "&cInvalid amount."
+  not-enough-money: "&cNot enough money. Balance: &e{balance}"
+  cannot-pay-self: "&cYou cannot transfer money to yourself."
+
+gui:
+  shop-title: "&8[&6Shop&8]"
+  trade-title: "&8[&eTrade&8]"
+  background-item: BLACK_STAINED_GLASS_PANE

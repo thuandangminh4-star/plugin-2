@@ -1,0 +1,1198 @@
+config-version: 11
+
+categories:
+  blocks:
+    name: "&aBlocks co ban"
+    icon: GRASS_BLOCK
+    slot: 10
+    items:
+      - material: DIRT
+        name: "&fDat"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: SAND
+        name: "&fCat"
+        buy-price: 4.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: GRAVEL
+        name: "&fSoi"
+        buy-price: 3.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: GLASS
+        name: "&fKinh"
+        buy-price: 10.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: GLASS_PANE
+        name: "&fTam kinh"
+        buy-price: 8.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: TERRACOTTA
+        name: "&6Terracotta"
+        buy-price: 12.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: WHITE_CONCRETE
+        name: "&fConcrete trang"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: BLACK_CONCRETE
+        name: "&8Concrete den"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: BRICKS
+        name: "&cGach do"
+        buy-price: 15.0
+        sell-price: 7.0
+        stack-size: 64
+      - material: HAY_BLOCK
+        name: "&eRomm kho"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: WHITE_CONCRETE_POWDER
+        name: "&fBot concrete trang"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: GRASS_BLOCK
+        name: "&aCo"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: MUD_BRICKS
+        name: "&6Gach bun"
+        buy-price: 16.0
+        sell-price: 7.0
+        stack-size: 64
+
+  wood:
+    name: "&6Go & Van"
+    icon: OAK_PLANKS
+    slot: 11
+    items:
+      - material: OAK_LOG
+        name: "&fGo soi"
+        buy-price: 8.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: SPRUCE_LOG
+        name: "&7Go thong"
+        buy-price: 9.0
+        sell-price: 4.5
+        stack-size: 64
+      - material: BIRCH_LOG
+        name: "&eGo bach duong"
+        buy-price: 9.0
+        sell-price: 4.5
+        stack-size: 64
+      - material: OAK_PLANKS
+        name: "&fVan soi"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: SPRUCE_PLANKS
+        name: "&7Van thong"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: DARK_OAK_PLANKS
+        name: "&8Van soi den"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: MANGROVE_PLANKS
+        name: "&cVan mangrove"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: BAMBOO_BLOCK
+        name: "&eKhoi tre"
+        buy-price: 14.0
+        sell-price: 7.0
+        stack-size: 64
+      - material: JUNGLE_PLANKS
+        name: "&6Van rung"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: ACACIA_PLANKS
+        name: "&cVan acacia"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: CHERRY_PLANKS
+        name: "&dVan cherry"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: BAMBOO_MOSAIC
+        name: "&eVan tre ghep"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: STRIPPED_OAK_LOG
+        name: "&fGo soi lot vo"
+        buy-price: 10.0
+        sell-price: 5.0
+        stack-size: 64
+
+  stones:
+    name: "&7Da xay dung"
+    icon: STONE_BRICKS
+    slot: 12
+    items:
+      - material: COBBLESTONE
+        name: "&7Da cuoi"
+        buy-price: 3.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: STONE
+        name: "&fDa"
+        buy-price: 5.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: STONE_BRICKS
+        name: "&7Gach da"
+        buy-price: 8.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: SMOOTH_STONE
+        name: "&fDa nhan"
+        buy-price: 7.0
+        sell-price: 3.5
+        stack-size: 64
+      - material: POLISHED_ANDESITE
+        name: "&7Andesite danh bong"
+        buy-price: 9.0
+        sell-price: 4.5
+        stack-size: 64
+      - material: POLISHED_DIORITE
+        name: "&fDiorite danh bong"
+        buy-price: 9.0
+        sell-price: 4.5
+        stack-size: 64
+      - material: DEEPSLATE
+        name: "&8Deepslate"
+        buy-price: 7.0
+        sell-price: 3.5
+        stack-size: 64
+      - material: COBBLED_DEEPSLATE
+        name: "&8Da sau tho"
+        buy-price: 8.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: BLACKSTONE
+        name: "&8Blackstone"
+        buy-price: 11.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: QUARTZ_BLOCK
+        name: "&fKhoi thach anh"
+        buy-price: 35.0
+        sell-price: 15.0
+        stack-size: 64
+      - material: POLISHED_BLACKSTONE_BRICKS
+        name: "&8Blackstone gach"
+        buy-price: 16.0
+        sell-price: 7.0
+        stack-size: 64
+      - material: TUFF_BRICKS
+        name: "&7Gach tuff"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: CALCITE
+        name: "&fCalcite"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: DRIPSTONE_BLOCK
+        name: "&6Khoi thach nho"
+        buy-price: 11.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: QUARTZ_PILLAR
+        name: "&fTru thach anh"
+        buy-price: 38.0
+        sell-price: 16.0
+        stack-size: 64
+
+  interior:
+    name: "&6Noi that & Cau kien"
+    icon: BARREL
+    slot: 13
+    items:
+      - material: OAK_STAIRS
+        name: "&fCau thang soi"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: SPRUCE_STAIRS
+        name: "&7Cau thang thong"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: STONE_BRICK_STAIRS
+        name: "&7Cau thang gach da"
+        buy-price: 13.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: DEEPSLATE_BRICK_STAIRS
+        name: "&8Cau thang da sau"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: QUARTZ_STAIRS
+        name: "&fCau thang thach anh"
+        buy-price: 42.0
+        sell-price: 18.0
+        stack-size: 64
+      - material: OAK_TRAPDOOR
+        name: "&6Cua sap soi"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 32
+      - material: IRON_BARS
+        name: "&7Song sat"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: CHAIN
+        name: "&7Day xich"
+        buy-price: 16.0
+        sell-price: 7.0
+        stack-size: 32
+      - material: BARREL
+        name: "&6Thung go"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 32
+      - material: LECTERN
+        name: "&6Buc giang"
+        buy-price: 24.0
+        sell-price: 10.0
+        stack-size: 16
+      - material: SCAFFOLDING
+        name: "&eGian giao"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: CAULDRON
+        name: "&8Vac nuoc"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 16
+      - material: OAK_SLAB
+        name: "&fTam soi"
+        buy-price: 7.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: SPRUCE_SLAB
+        name: "&7Tam thong"
+        buy-price: 7.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: STONE_BRICK_SLAB
+        name: "&7Tam gach da"
+        buy-price: 8.0
+        sell-price: 3.5
+        stack-size: 64
+      - material: QUARTZ_SLAB
+        name: "&fTam thach anh"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: OAK_FENCE
+        name: "&6Hang rao soi"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: SPRUCE_FENCE
+        name: "&7Hang rao thong"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: OAK_DOOR
+        name: "&6Cua soi"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 32
+      - material: SPRUCE_DOOR
+        name: "&7Cua thong"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 32
+
+  food:
+    name: "&eThuc an"
+    icon: COOKED_BEEF
+    slot: 15
+    items:
+      - material: BREAD
+        name: "&fBanh mi"
+        buy-price: 5.0
+        sell-price: 2.0
+        stack-size: 16
+      - material: COOKED_BEEF
+        name: "&fThit bo nuong"
+        buy-price: 15.0
+        sell-price: 7.0
+        stack-size: 16
+      - material: COOKED_CHICKEN
+        name: "&fGa nuong"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: COOKED_PORKCHOP
+        name: "&fThit heo nuong"
+        buy-price: 13.0
+        sell-price: 6.0
+        stack-size: 16
+      - material: APPLE
+        name: "&fTao"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 16
+      - material: GOLDEN_APPLE
+        name: "&6Tao vang"
+        buy-price: 500.0
+        sell-price: 200.0
+        stack-size: 4
+      - material: GOLDEN_CARROT
+        name: "&6Ca rot vang"
+        buy-price: 300.0
+        sell-price: 120.0
+        stack-size: 8
+
+  decoration:
+    name: "&dTrang tri"
+    icon: PAINTING
+    slot: 16
+    items:
+      - material: BOOKSHELF
+        name: "&6Ke sach"
+        buy-price: 65.0
+        sell-price: 25.0
+        stack-size: 16
+      - material: CHISELED_BOOKSHELF
+        name: "&6Ke sach cham"
+        buy-price: 85.0
+        sell-price: 35.0
+        stack-size: 16
+      - material: ITEM_FRAME
+        name: "&eKhung vat pham"
+        buy-price: 25.0
+        sell-price: 10.0
+        stack-size: 16
+      - material: GLOW_ITEM_FRAME
+        name: "&eKhung sang"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: PAINTING
+        name: "&dTranh"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 16
+      - material: FLOWER_POT
+        name: "&6Chau hoa"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: ARMOR_STAND
+        name: "&7Gia giap"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 8
+      - material: WHITE_BANNER
+        name: "&fCo trang"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 16
+      - material: RED_CARPET
+        name: "&cTham do"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 32
+      - material: BLUE_CARPET
+        name: "&9Tham xanh"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 32
+      - material: BELL
+        name: "&6Chuông"
+        buy-price: 120.0
+        sell-price: 50.0
+        stack-size: 4
+      - material: WHITE_CANDLE
+        name: "&fNen trang"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 16
+      - material: LIME_CANDLE
+        name: "&aNen xanh"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 16
+      - material: SKELETON_SKULL
+        name: "&7Dau xuong"
+        buy-price: 85.0
+        sell-price: 35.0
+        stack-size: 8
+      - material: POTTED_FLOWERING_AZALEA_BUSH
+        name: "&dChau azalea"
+        buy-price: 28.0
+        sell-price: 11.0
+        stack-size: 8
+      - material: JUKEBOX
+        name: "&6May phat nhac"
+        buy-price: 90.0
+        sell-price: 36.0
+        stack-size: 8
+      - material: NOTE_BLOCK
+        name: "&6Noteblock"
+        buy-price: 22.0
+        sell-price: 9.0
+        stack-size: 16
+      - material: LOOM
+        name: "&dKhung det"
+        buy-price: 24.0
+        sell-price: 10.0
+        stack-size: 16
+      - material: BEEHIVE
+        name: "&eTo ong"
+        buy-price: 38.0
+        sell-price: 16.0
+        stack-size: 16
+      - material: CARTOGRAPHY_TABLE
+        name: "&fBan do hoc"
+        buy-price: 26.0
+        sell-price: 10.0
+        stack-size: 16
+
+  lighting:
+    name: "&eAnh sang"
+    icon: SEA_LANTERN
+    slot: 19
+    items:
+      - material: TORCH
+        name: "&6Duoc"
+        buy-price: 3.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: SOUL_TORCH
+        name: "&bDuoc linh hon"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: LANTERN
+        name: "&eDen long"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 16
+      - material: SOUL_LANTERN
+        name: "&bDen linh hon"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 16
+      - material: GLOWSTONE
+        name: "&6Da phat sang"
+        buy-price: 25.0
+        sell-price: 10.0
+        stack-size: 32
+      - material: SEA_LANTERN
+        name: "&bDen bien"
+        buy-price: 40.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: REDSTONE_LAMP
+        name: "&cDen redstone"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 16
+      - material: END_ROD
+        name: "&fEnd rod"
+        buy-price: 35.0
+        sell-price: 14.0
+        stack-size: 16
+      - material: SHROOMLIGHT
+        name: "&6Shroomlight"
+        buy-price: 32.0
+        sell-price: 13.0
+        stack-size: 16
+      - material: OCHRE_FROGLIGHT
+        name: "&eFroglight"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 16
+      - material: CANDLE
+        name: "&fNen"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 16
+      - material: WHITE_CANDLE
+        name: "&fNen trang"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: PEARLESCENT_FROGLIGHT
+        name: "&dFroglight hong"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 16
+      - material: VERDANT_FROGLIGHT
+        name: "&aFroglight xanh"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 16
+      - material: JACK_O_LANTERN
+        name: "&6Bi ngo den"
+        buy-price: 24.0
+        sell-price: 10.0
+        stack-size: 16
+
+  garden:
+    name: "&aVuon & cay canh"
+    icon: FLOWERING_AZALEA
+    slot: 20
+    items:
+      - material: OAK_LEAVES
+        name: "&aLa soi"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: MOSS_BLOCK
+        name: "&aMoss block"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: MOSS_CARPET
+        name: "&aTham reu"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: AZALEA
+        name: "&aAzalea"
+        buy-price: 18.0
+        sell-price: 7.0
+        stack-size: 16
+      - material: FLOWERING_AZALEA
+        name: "&dAzalea no hoa"
+        buy-price: 22.0
+        sell-price: 9.0
+        stack-size: 16
+      - material: SPORE_BLOSSOM
+        name: "&dSpore blossom"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 8
+      - material: VINE
+        name: "&2Day leo"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: LILY_PAD
+        name: "&aLa sen"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 32
+      - material: PEONY
+        name: "&dMau don"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: SUNFLOWER
+        name: "&eHuong duong"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: HANGING_ROOTS
+        name: "&6Re treo"
+        buy-price: 9.0
+        sell-price: 3.0
+        stack-size: 32
+      - material: PINK_PETALS
+        name: "&dCanh hoa hong"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 32
+      - material: SMALL_DRIPLEAF
+        name: "&aDripleaf nho"
+        buy-price: 14.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: BIG_DRIPLEAF
+        name: "&aDripleaf lon"
+        buy-price: 18.0
+        sell-price: 7.0
+        stack-size: 16
+
+  mob-drops:
+    name: "&cLoot quai"
+    icon: BONE
+    slot: 21
+    items:
+      - material: BONE
+        name: "&fXuong"
+        buy-price: 5.0
+        sell-price: 3.0
+        stack-size: 32
+      - material: STRING
+        name: "&fChi"
+        buy-price: 4.0
+        sell-price: 2.0
+        stack-size: 32
+      - material: ARROW
+        name: "&fMui ten"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: GUNPOWDER
+        name: "&7Thuoc no"
+        buy-price: 8.0
+        sell-price: 4.0
+        stack-size: 32
+      - material: SPIDER_EYE
+        name: "&cMat nhen"
+        buy-price: 10.0
+        sell-price: 5.0
+        stack-size: 32
+      - material: ENDER_PEARL
+        name: "&5Hat ender"
+        buy-price: 50.0
+        sell-price: 25.0
+        stack-size: 16
+      - material: BLAZE_ROD
+        name: "&6Gay blaze"
+        buy-price: 40.0
+        sell-price: 20.0
+        stack-size: 16
+      - material: GHAST_TEAR
+        name: "&fNuoc mat ghast"
+        buy-price: 100.0
+        sell-price: 50.0
+        stack-size: 16
+
+  pvp:
+    name: "&cPvP"
+    icon: TOTEM_OF_UNDYING
+    slot: 14
+    items:
+      - material: TOTEM_OF_UNDYING
+        name: "&6Totem sinh ton"
+        buy-price: 650.0
+        sell-price: 325.0
+        stack-size: 1
+      - material: END_CRYSTAL
+        name: "&dPha le end"
+        buy-price: 50.0
+        sell-price: 20.0
+        stack-size: 64
+      - material: END_STONE
+        name: "&eDa end"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: OBSIDIAN
+        name: "&8Hac dien thach"
+        buy-price: 16.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: EXPERIENCE_BOTTLE
+        name: "&aBinh kinh nghiem"
+        buy-price: 16.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: TIPPED_ARROW
+        name: "&bMui ten tam thuoc"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: ENDER_PEARL
+        name: "&5Hat ender"
+        buy-price: 40.0
+        sell-price: 18.0
+        stack-size: 16
+
+  brewing:
+    name: "&5Pha thuoc"
+    icon: BREWING_STAND
+    slot: 17
+    items:
+      - material: BREWING_STAND
+        name: "&5Gian pha thuoc"
+        buy-price: 35.0
+        sell-price: 14.0
+        stack-size: 64
+      - material: GLASS_BOTTLE
+        name: "&fBinh thuy tinh"
+        buy-price: 2.0
+        sell-price: 0.8
+        stack-size: 64
+      - material: BLAZE_POWDER
+        name: "&6Bot blaze"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: NETHER_WART
+        name: "&4Nether wart"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: FERMENTED_SPIDER_EYE
+        name: "&cMat nhen u"
+        buy-price: 7.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: GLOWSTONE_DUST
+        name: "&eBui glowstone"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: SUGAR
+        name: "&fDuong"
+        buy-price: 3.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: GLISTERING_MELON_SLICE
+        name: "&eDua hau ket tinh"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: RABBIT_FOOT
+        name: "&fChan tho"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: MAGMA_CREAM
+        name: "&6Cream magma"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: PHANTOM_MEMBRANE
+        name: "&7Mang phoi"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 64
+      - material: DRAGON_BREATH
+        name: "&dHoi tho dragon"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 64
+      - material: SPIDER_EYE
+        name: "&cMat nhen"
+        buy-price: 8.0
+        sell-price: 5.0
+        stack-size: 32
+      - material: BLAZE_ROD
+        name: "&6Gay blaze"
+        buy-price: 32.0
+        sell-price: 16.0
+        stack-size: 16
+      - material: GHAST_TEAR
+        name: "&fNuoc mat ghast"
+        buy-price: 80.0
+        sell-price: 40.0
+        stack-size: 16
+
+  seeds:
+    name: "&aHat giong"
+    icon: WHEAT_SEEDS
+    slot: 18
+    items:
+      - material: WHEAT_SEEDS
+        name: "&eHat lua mi"
+        buy-price: 3.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: BEETROOT_SEEDS
+        name: "&cHat cu cai do"
+        buy-price: 4.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: MELON_SEEDS
+        name: "&aHat dua gang"
+        buy-price: 4.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: PUMPKIN_SEEDS
+        name: "&6Hat bi ngo"
+        buy-price: 4.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: TORCHFLOWER_SEEDS
+        name: "&eHat hoa torchflower"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: PITCHER_POD
+        name: "&dHat pitcher"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: COCOA_BEANS
+        name: "&6Hat cacao"
+        buy-price: 4.0
+        sell-price: 1.5
+        stack-size: 64
+      - material: SWEET_BERRIES
+        name: "&cQua tuoi"
+        buy-price: 5.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: MANGROVE_PROPAGULE
+        name: "&cMam mangrove"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: OAK_SAPLING
+        name: "&fMam soi"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: SPRUCE_SAPLING
+        name: "&7Mam thong"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: BIRCH_SAPLING
+        name: "&eMam bach duong"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: JUNGLE_SAPLING
+        name: "&6Mam rung"
+        buy-price: 7.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: ACACIA_SAPLING
+        name: "&cMam acacia"
+        buy-price: 7.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: CHERRY_SAPLING
+        name: "&dMam cherry"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 64
+      - material: DARK_OAK_SAPLING
+        name: "&8Mam soi den"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 64
+
+  colors:
+    name: "&bMau sac"
+    icon: CYAN_WOOL
+    slot: 23
+    items:
+      - material: WHITE_WOOL
+        name: "&fLen trang"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: BLACK_WOOL
+        name: "&8Len den"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: RED_WOOL
+        name: "&cLen do"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: BLUE_WOOL
+        name: "&9Len xanh"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: LIME_WOOL
+        name: "&aLen lime"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: YELLOW_WOOL
+        name: "&eLen vang"
+        buy-price: 9.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: WHITE_STAINED_GLASS
+        name: "&fKinh nhuom trang"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: BLUE_STAINED_GLASS
+        name: "&9Kinh nhuom xanh"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: WHITE_CONCRETE_POWDER
+        name: "&fBot concrete trang"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: CYAN_CONCRETE
+        name: "&bConcrete cyan"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: PINK_CONCRETE
+        name: "&dConcrete hong"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: BLACK_STAINED_GLASS
+        name: "&8Kinh den"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: CYAN_TERRACOTTA
+        name: "&bTerracotta cyan"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: PINK_TERRACOTTA
+        name: "&dTerracotta hong"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: MAGENTA_GLAZED_TERRACOTTA
+        name: "&dGlazed hong"
+        buy-price: 22.0
+        sell-price: 9.0
+        stack-size: 64
+      - material: CYAN_GLAZED_TERRACOTTA
+        name: "&bGlazed cyan"
+        buy-price: 22.0
+        sell-price: 9.0
+        stack-size: 64
+      - material: WHITE_CARPET
+        name: "&fTham trang"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 32
+
+  redstone:
+    name: "&cRedstone"
+    icon: REDSTONE
+    slot: 24
+    items:
+      - material: REDSTONE_TORCH
+        name: "&cDuoc redstone"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 32
+      - material: TARGET
+        name: "&cTarget"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 16
+      - material: LEVER
+        name: "&6Can gat"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 32
+      - material: STONE_BUTTON
+        name: "&7Nut da"
+        buy-price: 8.0
+        sell-price: 3.0
+        stack-size: 32
+      - material: OBSERVER
+        name: "&7Observer"
+        buy-price: 55.0
+        sell-price: 22.0
+        stack-size: 16
+      - material: PISTON
+        name: "&7Piston"
+        buy-price: 38.0
+        sell-price: 15.0
+        stack-size: 16
+      - material: STICKY_PISTON
+        name: "&aSticky piston"
+        buy-price: 48.0
+        sell-price: 20.0
+        stack-size: 16
+      - material: HOPPER
+        name: "&7Hopper"
+        buy-price: 65.0
+        sell-price: 28.0
+        stack-size: 16
+      - material: REPEATER
+        name: "&cRepeater"
+        buy-price: 24.0
+        sell-price: 10.0
+        stack-size: 16
+      - material: COMPARATOR
+        name: "&cComparator"
+        buy-price: 35.0
+        sell-price: 14.0
+        stack-size: 16
+
+  nether_end:
+    name: "&5Nether & End"
+    icon: END_STONE
+    slot: 25
+    items:
+      - material: NETHERRACK
+        name: "&cNetherrack"
+        buy-price: 6.0
+        sell-price: 2.0
+        stack-size: 64
+      - material: SOUL_SAND
+        name: "&6Soul sand"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: SOUL_SOIL
+        name: "&8Soul soil"
+        buy-price: 12.0
+        sell-price: 5.0
+        stack-size: 64
+      - material: BASALT
+        name: "&8Basalt"
+        buy-price: 10.0
+        sell-price: 4.0
+        stack-size: 64
+      - material: MAGMA_BLOCK
+        name: "&6Magma block"
+        buy-price: 15.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: CRIMSON_PLANKS
+        name: "&cVan crimson"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: WARPED_PLANKS
+        name: "&bVan warped"
+        buy-price: 2.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: END_STONE
+        name: "&eEnd stone"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: PURPUR_BLOCK
+        name: "&dPurpur block"
+        buy-price: 26.0
+        sell-price: 11.0
+        stack-size: 64
+      - material: CHORUS_FLOWER
+        name: "&dChorus flower"
+        buy-price: 40.0
+        sell-price: 16.0
+        stack-size: 16
+      - material: NETHER_BRICKS
+        name: "&4Gach nether"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: RED_NETHER_BRICKS
+        name: "&cGach nether do"
+        buy-price: 16.0
+        sell-price: 7.0
+        stack-size: 64
+      - material: END_STONE_BRICKS
+        name: "&eGach end"
+        buy-price: 22.0
+        sell-price: 10.0
+        stack-size: 64
+      - material: PURPUR_PILLAR
+        name: "&dTru purpur"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 64
+      - material: END_ROD
+        name: "&fCanh den end"
+        buy-price: 35.0
+        sell-price: 14.0
+        stack-size: 16
+      - material: CHORUS_PLANT
+        name: "&dThan chorus"
+        buy-price: 20.0
+        sell-price: 8.0
+        stack-size: 32
+
+  marine:
+    name: "&3Bien ca"
+    icon: PRISMARINE
+    slot: 28
+    items:
+      - material: PRISMARINE
+        name: "&3Prismarine"
+        buy-price: 18.0
+        sell-price: 8.0
+        stack-size: 64
+      - material: PRISMARINE_BRICKS
+        name: "&bPrismarine bricks"
+        buy-price: 24.0
+        sell-price: 10.0
+        stack-size: 64
+      - material: DARK_PRISMARINE
+        name: "&8Dark prismarine"
+        buy-price: 26.0
+        sell-price: 11.0
+        stack-size: 64
+      - material: SEA_PICKLE
+        name: "&aSea pickle"
+        buy-price: 14.0
+        sell-price: 5.0
+        stack-size: 16
+      - material: KELP
+        name: "&2Kelp"
+        buy-price: 4.0
+        sell-price: 1.0
+        stack-size: 64
+      - material: TUBE_CORAL_BLOCK
+        name: "&9Tube coral block"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: BRAIN_CORAL_BLOCK
+        name: "&dBrain coral block"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: FIRE_CORAL_BLOCK
+        name: "&cFire coral block"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: HORN_CORAL_BLOCK
+        name: "&eHorn coral block"
+        buy-price: 45.0
+        sell-price: 18.0
+        stack-size: 16
+      - material: DEAD_TUBE_CORAL_BLOCK
+        name: "&7Dead coral block"
+        buy-price: 18.0
+        sell-price: 7.0
+        stack-size: 32
+      - material: PRISMARINE_STAIRS
+        name: "&3Cau thang prismarine"
+        buy-price: 26.0
+        sell-price: 11.0
+        stack-size: 64
+      - material: PRISMARINE_SLAB
+        name: "&3Tam prismarine"
+        buy-price: 14.0
+        sell-price: 6.0
+        stack-size: 64
+      - material: DARK_PRISMARINE_STAIRS
+        name: "&8Cau thang dark prismarine"
+        buy-price: 28.0
+        sell-price: 12.0
+        stack-size: 64
+      - material: SEA_LANTERN
+        name: "&bLantern bien"
+        buy-price: 40.0
+        sell-price: 18.0
+        stack-size: 16
