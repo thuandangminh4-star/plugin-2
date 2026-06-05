@@ -55,6 +55,10 @@ commands:
     description: Server-wide Sic Bo betting commands
     usage: /taixiu [menu|tai|xiu|lichsu|soicau|predict|status] [amount]
     aliases: [tx]
+  spawner:
+    description: Open the spawner shop
+    usage: /spawner
+    aliases: [sp, spawnershop]
   admincurrency:
     description: Admin currency commands
     usage: /admincurrency <set|add|remove|check|reload|shopsync|shopprice|afk> ...
@@ -85,6 +89,9 @@ permissions:
     default: true
   donutcurrency.shop:
     description: Use /shop
+    default: true
+  donutcurrency.shop.spawner:
+    description: Use /spawner shop
     default: true
   donutcurrency.trade:
     description: Use /trade
